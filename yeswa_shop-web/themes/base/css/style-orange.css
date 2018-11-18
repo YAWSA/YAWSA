@@ -1,0 +1,153 @@
+@import url('font-awesome.css');
+
+body {
+	color: #2B2B2D;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: 400;
+}
+.m-t-10 {
+	margin-top: 10px;
+}
+/*---------------
+    logo
+---------------*/
+.bg-danger.light-color {
+	border: medium none;
+	margin-bottom: 0;
+	max-height: 40px;
+}
+.sidebar-collapsed .icon-logo {
+	height: 60px;
+	padding-top: 5px;
+	line-height: 45px;
+	display: block !important;
+	position: absolute;
+	left: -52px;
+	width: 52px;
+	font-size: 24px;
+	text-align: center;
+}
+.mega-menu li a {
+	color: #fff;
+}
+.mega-menu li a:hover {
+	background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0 !important;
+}
+.navbar-brand>img {
+	display: inline;
+}
+.navbar-brand .brand-name {
+	float: right;
+	color: #fff;
+	font-size: 22px;
+}
+.navbar-brand:hover {
+	background-color: #f78a06;
+}
+/*---------------------
+    header section
+-----------------------*/
+.header-section {
+	background: #fff;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.header-section::after {
+	clear: both;
+	display: block;
+	content: '';
+}
+.bg-danger, .info-number .bg-danger {
+	color: #fff;
+	background-color: #F7941D;
+}
+/*---------------------
+    body content
+-----------------------*/
+.body-content {
+	
+	position: relative;
+}
+.wrapper {
+	padding: 20px;
+}
+
+/*------------------
+    page heading
+-------------------*/
+.page-head {
+	padding: 20px;
+	background: #e8e8e8;
+	position: relative;
+}
+.page-head h3 {
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.page-head .sub-title {
+	color: #a3a3a3;
+	font-size: 14px;
+}
+/*---------------------
+    footer content
+-----------------------*/
+footer {
+	background: rgba(0, 0, 0) none repeat scroll 0 0;
+	bottom: 0;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	padding: 0 20px;
+	width: 100%;
+}
+
+footer.sticky-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.footer-bottom a {
+	color: #F7941D;
+}
+.well {
+	margin-bottom: 0;
+}
+.no-pad {
+	padding: 0px;
+}
+/* login page */
+.login-box {
+	color: #555;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff none repeat scroll 0 0;
+	padding: 26px 20px;
+}
+.colw {
+	font-size: 32px;
+	margin-top: 0;
+}
+.btn.btn-success {
+	background: #F7941D !important;
+	border-color: #F7941D !important;
+}
+a {
+	color: rgb(247, 148, 29);
+	text-decoration: none;
+}
+.forgot.pull-right {
+    margin-top: 10px;
+}
+.colw:hover {
+	color: #f7941d;
+}
+a:hover, a:focus {
+	color: #23527c;
+	text-decoration: none;
+}

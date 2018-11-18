@@ -1,0 +1,32 @@
+{
+	"name": "imanilchaudhari/yii2-currency-converter",
+	"description": "This extension will help to find out current currency conversion rate. This extension uses Yahoo's currency conversion API",
+	"type": "yii2-extension",
+	"keywords": [
+		"yii2",
+		"extension"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Anil Chaudhari",
+			"email": "imanilchaudhari@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/imanilchaudhari/yii2-currency-converter.git"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"imanilchaudhari\\CurrencyConverter\\": ""
+		}
+	}
+}
