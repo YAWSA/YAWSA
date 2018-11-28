@@ -1,0 +1,6 @@
+framework module Pods_YESWA {
+  umbrella header "Pods-YESWA-umbrella.h"
+
+  export *
+  module * { export * }
+}
