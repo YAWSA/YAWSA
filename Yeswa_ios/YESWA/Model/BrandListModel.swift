@@ -9,6 +9,7 @@
 import Foundation
 class BrandListModel: NSObject {
     
+    //let layer = UIView(frame: CGRect(x: 89, y: 105, width: 199.53, height: 131))self.view.addSubview(layer)
     
     var brandId,stateId,typeId :Int!
     var title,subTitle,brandImg :String!
